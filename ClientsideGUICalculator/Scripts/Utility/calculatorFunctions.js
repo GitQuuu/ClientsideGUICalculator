@@ -1,6 +1,6 @@
 ﻿
 function dis(val) {
-    document.getElementById().value += val;
+    document.getElementById("Result").value += val;
 }
 
 function solve() {
