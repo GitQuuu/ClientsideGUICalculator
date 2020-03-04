@@ -4,8 +4,8 @@
 }
 
 function solve() {
-    var x = document.getElementById("Result").value;
-    var y = eval(x);
+    var x : string = document.getElementById("Result").value;
+    var y : HTMLElement= eval(x);
     document.getElementById("Result").value = y;
 }
 
